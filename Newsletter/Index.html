@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="News">
+  <head>
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+      
+    <script src="/controllers/NewsController.js"></script>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <h2 align="center">NewsLetter Application</h2>
+      <div class="container">
+    <div class="main">
+			<div ng-controller="NewsLetterControl">
+				<div ng-view></div>
+			</div> 		
+		</div>
+      </div>
+  </body>
+</html>

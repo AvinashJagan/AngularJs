@@ -1,0 +1,28 @@
+
+<div >
+
+<h1>Welcome {{name}} !!</h1><br><h2> Your Email: {{eemail}} </h2>
+    
+    
+    <div>
+    
+   <h2> <p align="center"> Emails people who already registered</p></h2><br>
+        <div>
+            <table align="center">
+                <tr>
+                <th>Name </th>
+                <th>Email</th>
+                </tr>
+                <tr ng-repeat='arr in arr'>
+                
+                <td>{{arr.fname}}</td>
+                <td>{{arr.email}}</td>
+                
+                </tr>
+           </table>
+            
+        </div>
+    
+    </div>
+</div>
+
